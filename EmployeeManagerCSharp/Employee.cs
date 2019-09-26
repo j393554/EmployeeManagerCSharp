@@ -22,5 +22,10 @@ namespace EmployeeManagerCSharp
       this.employeeNum = employeeNum;
       this.name = name;
     }
+
+    public virtual string PrintDetails()
+    {
+      return employeeNum + " " + name;
+    }
   }
 }
